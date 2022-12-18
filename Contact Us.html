@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--------------HEADER---------------->
+    <section class="contact-us-header">
+        <nav>
+            <a href="Home.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <img src="./Images/close.png" alt="" onclick="hideMenu()" class="menu-bar">
+
+                <ul>
+                    <li> <a href="Home.html">Home</a></li>
+                    <li> <a href="Tea Plantations.html">Tea Plantations</a></li>
+                    <li> <a href="Tea Museum.html">Tea Musuem</a></li>
+                    <li> <a href="By Products.html">By products</a></li>
+                    <li> <a href="Sale Pages.html">Tea Sales</a></li>
+                    <li> <a href="Purchase and Donate.html">Purchase and Donate</a></li>
+                    <li> <a href="Contact Us.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <img src="./Images/menu.png" alt="" onclick="showMenu()" class="menu-bar">
+            </div>
+        </nav>
+
+        <h1>Contact Us</h1>
+    </section>
+    <!-- MIDDLE PART -->
+    <!-- <section class="ContactUs-content">
+       
+    </section> -->
+    <section class="Form-content">
+        <div class="row">
+            <div class="contact-box">
+                <form>
+                    <input type="text" class="input-field" placeholder="Contact Us">
+                    <input type="text" class="input-field" placeholder="Your E-Mail">
+                    <input type="text" class="input-field" placeholder="Product">
+                    <input type="text" class="input-field" placeholder="Message">
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- ---------FOOTER--------- -->
+
+    <section class="footer">
+        <h1>About Us</h1>
+        <p>We Provide High Quality Tea</p>
+        <div class="icon">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </div>
+        <p>By Shimark.. </p>
+    </section>
+
+
+
+
+
+</body>
+<!-- JAVASCRIPT -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+</html>
